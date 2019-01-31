@@ -15,10 +15,10 @@ Users will have their own accounts, choose for their ideal pets, feed and play w
 
 ### Prerequisites
 
-*Unity Version 2018.3.2f1
+* Unity Version 2018.3.2f1
 
-*OS: Windows 7 SP1+, 8, 10, 64-bit versions only; Mac OS X 10.9+.
-*GPU: Graphics card with DX9 (shader model 2.0) capabilities. Anything made since 2004 should work.
+* OS: Windows 7 SP1+, 8, 10, 64-bit versions only; Mac OS X 10.9+.
+* GPU: Graphics card with DX9 (shader model 2.0) capabilities. Anything made since 2004 should work.
 
 
 ### Libraries
@@ -30,8 +30,8 @@ TODO: List which gems you added to the project, and the purpose each gem serves 
 TODO: Describe the installation process (making sure you mention `bundle install`).
 Instructions need to be such that a user can just copy/paste the commands to get things set up and running. 
 
-*Install Unity version 2018.3.2.f1 from here: https://unity3d.com/get-unity/download
-*Clone our repo with the command: git clone “insert the link here later when we’re done”
+* Install Unity version 2018.3.2.f1 from here: https://unity3d.com/get-unity/download
+* Clone our repo with the command: git clone “insert the link here later when we’re done”
 
 
 ## Functionality
