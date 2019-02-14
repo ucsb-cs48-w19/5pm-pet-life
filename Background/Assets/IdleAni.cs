@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class IdleAni : MonoBehaviour
 {
+    //most basic user interactions
+    
     public Animator anim;
     // Start is called before the first frame update
     void Start()
