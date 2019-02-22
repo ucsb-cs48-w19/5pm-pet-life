@@ -23,28 +23,30 @@ Users will have their own accounts, choose for their ideal pets, feed and play w
 
 ### Libraries
 
-TODO: List which gems you added to the project, and the purpose each gem serves in your app.
 
 ### Installation Steps
 
-TODO: Describe the installation process (making sure you mention `bundle install`).
-Instructions need to be such that a user can just copy/paste the commands to get things set up and running. 
-
 * Install Unity version 2018.3.2.f1 from here: https://unity3d.com/get-unity/download
-* Clone our repo with the command: git clone “insert the link here later when we’re done”
+* Clone our repo with HTTPS or SSH
 
 
 ## Functionality
 
-First, the game will prompt you to make an account. Afterwards, you can choose a pet to take care of. When taking care of your pet, you have to feed it, play with it, keep it clean, and other various activities. 
+First, the game will prompt you to make an account. Afterwards, you can choose a pet to take care of. When taking care of your pet, you have to feed it, play with it, keep it clean, and other various activities. You monitor a "happiness" bar to keep track of how well you're doing in game.
 
 
 ## Known Problems
 
-TODO: Describe any known issues, bugs, odd behaviors or code smells. 
 Provide steps to reproduce the problem and/or name a file or a function where the problem lives.
 TO BE UPDATED AS PROGRESS CONTINUES
-probably wonky animation or collision issues will be something
+ 
+We are aware that after a collision the dog sometimes falls over and cannot get up and sort of uselessly spins around. This is a result of using 3d physics on 2d assets in a 3d environment and we are looking into how to better integrate 2d into 3d (maybe with a constantly updating script) or finding a 3d model.
+
+Animations plays on a slight delay. 
+
+All physics goes out the window once the dog leaves the house. Take the stairs at your own risk.
+
+Camera is not very smooth, sometimes gets blocked by walls of the house. Maybe update SmoothFollow.cs so that it turns whenever it hits a wall.
 
 ## Contributing
 
@@ -55,8 +57,5 @@ probably wonky animation or collision issues will be something
 5. Submit a pull request :D
 
 ## License
-
-If you haven't already, add a file called `LICENSE.txt` with the text of the appropriate license.
-We recommend using the MIT license: <https://choosealicense.com/licenses/mit/>
-
+See `LICENSE.txt`
 
