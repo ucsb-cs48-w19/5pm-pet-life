@@ -9,7 +9,7 @@ echo "Attempting to build $project for Windows"
   -silent-crashes 
   -logFile $(pwd)/unity.log 
   -projectPath $(pwd) 
-  -buildWindows64Player "$(pwd)/Build/windows/$project.exe" 
+  -buildWindowsPlayer $(pwd)/Build/windows/$project.exe
   -quit
 
 echo "Attempting to build $project for OS X"
@@ -19,7 +19,7 @@ echo "Attempting to build $project for OS X"
   -silent-crashes 
   -logFile $(pwd)/unity.log 
   -projectPath $(pwd) 
-  -buildOSXUniversalPlayer "$(pwd)/Build/osx/$project.app" 
+  -buildOSXUniversalPlayer $(pwd)/Build/osx/$project.app
   -quit
 
 echo "Attempting to build $project for Linux"
@@ -29,7 +29,7 @@ echo "Attempting to build $project for Linux"
   -silent-crashes 
   -logFile $(pwd)/unity.log 
   -projectPath $(pwd) 
-  -buildLinuxUniversalPlayer "$(pwd)/Build/linux/$project.exe" 
+  -buildLinuxUniversalPlayer $(pwd)/Build/linux/$project.exe
   -quit
 
 echo 'Logs from build'
