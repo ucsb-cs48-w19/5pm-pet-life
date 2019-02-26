@@ -9,7 +9,7 @@ echo "Attempting to build $project for Windows"
   -silent-crashes 
   -logFile $(pwd)/unity.log 
   -projectPath $(pwd) 
-  -buildWindowsPlayer "$(pwd)/Build/windows/$project.exe" 
+  -buildWindows64Player "$(pwd)/Build/windows/$project.exe" 
   -quit
 
 echo "Attempting to build $project for OS X"
