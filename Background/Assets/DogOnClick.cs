@@ -46,7 +46,7 @@ public class DogOnClick: MonoBehaviour
 
             //play animation
             //maybe loop to play while object is in motion
-           if (dog.transform.GetComponent<Rigidbody>().velocity.x>0 || dog.transform.GetComponent<Rigidbody>().velocity.y > 0)
+           if (Mathf.Abs(dog.transform.GetComponent<Rigidbody>().velocity.x)>0 || Mathf.Abs(dog.transform.GetComponent<Rigidbody>().velocity.z) > 0)
            {
                 anim.SetTrigger("Active");
            }
