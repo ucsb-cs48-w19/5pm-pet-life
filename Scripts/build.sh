@@ -28,7 +28,7 @@ echo "Attempting to build $project for Linux"
   -nographics \
   -silent-crashes \
   -logFile $(pwd)/unity.log \ 
-  -projectPath $(pwd) \
+  -projectPath "$(pwd)" \
   -buildLinuxUniversalPlayer "$(pwd)/Build/linux/$project.exe" \
   -quit \
 
