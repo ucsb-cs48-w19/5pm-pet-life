@@ -25,13 +25,13 @@ namespace Tests
             GameObject dog = Object.Instantiate(new GameObject());
             Assert.AreEqual(dog.scene, UnityEngine.SceneManagement.SceneManager.GetActiveScene());
         }
-        /*
+        
         [UnityTest]
         public IEnumerator TestSceneChangeHasDog() {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Background.unity", UnityEngine.SceneManagement.LoadSceneMode.Additive);
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Assets/Scenes/Background", UnityEngine.SceneManagement.LoadSceneMode.Additive);
             yield return null;
             Assert.NotNull(GameObject.Find("Dog_0"));
-        }*/
+        }
 
         // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
         // `yield return null;` to skip a frame.
