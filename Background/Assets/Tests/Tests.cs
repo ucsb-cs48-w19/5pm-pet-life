@@ -15,10 +15,22 @@ namespace Tests
             // Use the Assert class to test conditions
         }
         [Test]
-        public void getDog() {
-            GameObject dog;
-            dog = GameObject.Find("Dog_0");
-            Assert.AreEqual(dog, GameObject.Find("Dog_0"));
+        public void GetDog() {
+            GameObject dog = Object.Instantiate(new GameObject());
+            dog.name = "dog";
+            Assert.AreEqual(dog, GameObject.Find("dog"));
+        }
+        [Test]
+        public void TestDogScene() {
+            GameObject dog = Object.Instantiate(new GameObject());
+            Assert.AreEqual(dog.scene, UnityEngine.SceneManagement.SceneManager.GetActiveScene());
+        }
+        
+        [UnityTest]
+        public IEnumerator TestSceneChangeHasDog() {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Assets/Scenes/Background", UnityEngine.SceneManagement.LoadSceneMode.Additive);
+            yield return null;
+            Assert.NotNull(GameObject.Find("Dog_0"));
         }
 
         // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
