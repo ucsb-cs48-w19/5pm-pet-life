@@ -1,5 +1,7 @@
 # 5pm-pet-life
 
+[![Build Status](https://travis-ci.org/ucsb-cs48-w19/5pm-pet-life.svg?branch=master)](https://travis-ci.org/ucsb-cs48-w19/5pm-pet-life)
+
 ## Project summary
 This project was developed with Unity and is about taking care of a virtual pet. This game was developed for the PC platform. 
 
