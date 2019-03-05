@@ -22369,7 +22369,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh39936
+  m_Name: pb_Mesh63684
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -26396,8 +26396,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaa8d79955e805143af02133e644dbc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDistance: 10
-  maxDistance: 12
+  minDistance: 8
+  maxDistance: 10
   DistanceUp: -2
   smooth: 4
   rotateAround: 70

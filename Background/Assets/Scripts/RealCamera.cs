@@ -33,7 +33,7 @@ public class RealCamera : MonoBehaviour{
  
     private float HorizontalAxis;
     private float VerticalAxis;
- 
+
     // Use this for initialization
     void Start(){
         //the statement below automatically positions the camera behind the target.
@@ -55,11 +55,14 @@ public class RealCamera : MonoBehaviour{
         //the camMask is for forcing the camera to push away from walls.
         camPosition = targetOffset + Vector3.up * DistanceUp - rotateVector * DistanceAway;
         camMask = targetOffset + Vector3.up * DistanceUp - rotateVector * DistanceAway;
- 
+
+
+        
+        //turnoff(targetOffset);
         occludeRay(ref targetOffset);
         smoothCamMethod();
  
-        transform.LookAt(target);
+        transform.LookAt(target); //keeps looking @ target. May be causing rotation issues?
  
         #region wrap the cam orbit rotation
         if(rotateAround > 360){
@@ -84,6 +87,8 @@ public class RealCamera : MonoBehaviour{
         #region prevent wall clipping
         //declare a new raycast hit.
         RaycastHit wallHit = new RaycastHit();
+
+        CamOcclusion= 1 << 9;
         //linecast from your player (targetFollow) to your cameras mask (camMask) to find collisions.
         //when collision move camera 
         if(Physics.Linecast(targetFollow, camMask, out wallHit, CamOcclusion)){
@@ -92,8 +97,17 @@ public class RealCamera : MonoBehaviour{
             //the x and z coordinates are pushed away from the wall by hit.normal.
             //the y coordinate stays the same.
             camPosition = new Vector3(wallHit.point.x + wallHit.normal.x * 0.5f, camPosition.y, wallHit.point.z + wallHit.normal.z * 0.5f);
+
+            //hacky method just turns off the wall's meshrenderer. not consistent enough to use
+            //wallHit.collider.GetComponent<MeshRenderer>().enabled=false;
+        }
+
+        else
+        {
+
         }
         #endregion
     }
+
 }
  
