@@ -4,7 +4,7 @@ using System.Collections;
 public class Character : MonoBehaviour
 {
     //Variables
-    public float speed = 6.0F;
+    public float speed = 10.0F;
     public float jumpSpeed = 8.0F;
     public float gravity = 20.0F;
     public float rotationRate = 180;
@@ -37,23 +37,10 @@ public class Character : MonoBehaviour
                 anim.SetBool("walk", false);
             }
 
-            if (Input.GetKey(KeyCode.S))
-            {
-                anim.SetBool("walk_backwards", true);
-            }
-            else
-            {
-                anim.SetBool("walk_backwards", false);
-            }
 
+          
 
-            if (Input.GetButton("Fire1"))
-            {
-                anim.SetTrigger("Wave");
-              
-            }
-
-            anim.ResetTrigger("Wave");
+        
 
             moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
             moveDirection = transform.TransformDirection(moveDirection);
