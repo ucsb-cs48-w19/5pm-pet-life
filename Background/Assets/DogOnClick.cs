@@ -29,20 +29,20 @@ public class DogOnClick: MonoBehaviour
         //on leftclick walking animation triggers, moves toward mouseclick
         if (Input.GetMouseButton(0))
         {
-        	//raycast to move
+            //raycast to move
             ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
             //also limit the movement to x and y axis only
             if (Physics.Raycast(ray, out hit))
-             {
+            {
                 Vector3 rayPosition = hit.point;
-                float xupdate=rayPosition.x;
+                float xupdate = rayPosition.x;
                 float zupdate = rayPosition.z;
                 //hopefully new vector with the ray's x and y coord while keeping the y
                 flatraypos = new Vector3(xupdate, newPosition.y, zupdate);
                 //also get rid of dragging and just make ti move
-                transform.position=Vector3.MoveTowards(transform.position, flatraypos, 12*Time.deltaTime);
-             }
+                transform.position = Vector3.MoveTowards(transform.position, flatraypos, 12 * Time.deltaTime);
+            }
 
             //play animation
             //maybe loop to play while object is in motion
@@ -51,8 +51,11 @@ public class DogOnClick: MonoBehaviour
                  anim.SetTrigger("Active");
             }*/
             anim.SetTrigger("Active");
-            
 
+        }
+        else
+        {
+            anim.SetTrigger("Not Active");
         }
 
 
