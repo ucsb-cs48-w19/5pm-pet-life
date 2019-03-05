@@ -20,7 +20,7 @@ public class RealCamera : MonoBehaviour{
  
     [Header("Layer(s) to include")]
     public LayerMask CamOcclusion;                //the layers that will be affected by collision
- 
+
     [Header("Map coordinate script")]
 //    public worldVectorMap wvm;
     RaycastHit hit;

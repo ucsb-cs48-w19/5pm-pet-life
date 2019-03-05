@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.8037745, g: 0.7082275, b: 0.62298775, a: 1}
+  m_IndirectSpecularColor: {r: 0.8015039, g: 0.7082219, b: 0.6230049, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2691,7 +2691,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69790
+  m_Name: pb_Mesh40526
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -3194,7 +3194,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-158868
+  m_Name: pb_Mesh40076
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -5121,7 +5121,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69920
+  m_Name: pb_Mesh40666
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -5281,7 +5281,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69016
+  m_Name: pb_Mesh39692
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -5441,7 +5441,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69932
+  m_Name: pb_Mesh40680
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -5682,7 +5682,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69848
+  m_Name: pb_Mesh40586
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -5958,7 +5958,7 @@ GameObject:
   - component: {fileID: 267432440}
   - component: {fileID: 267432439}
   - component: {fileID: 267432438}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 1st floor left wall 1
   m_TagString: CollisionWall
   m_Icon: {fileID: 0}
@@ -7411,7 +7411,7 @@ GameObject:
   - component: {fileID: 422923606}
   - component: {fileID: 422923605}
   - component: {fileID: 422923604}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 2nd floor right wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7749,7 +7749,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69484
+  m_Name: pb_Mesh40162
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -9095,7 +9095,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69948
+  m_Name: pb_Mesh40698
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -9330,7 +9330,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69702
+  m_Name: pb_Mesh40424
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -10078,7 +10078,7 @@ GameObject:
   - component: {fileID: 565376879}
   - component: {fileID: 565376878}
   - component: {fileID: 565376883}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 1st floor left wall
   m_TagString: CollisionWall
   m_Icon: {fileID: 0}
@@ -11406,7 +11406,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69002
+  m_Name: pb_Mesh39678
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -11685,7 +11685,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-194350
+  m_Name: pb_Mesh40088
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -12407,7 +12407,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh68946
+  m_Name: pb_Mesh39610
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -14155,7 +14155,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Start
+  m_Text: Play/Back
 --- !u!222 &809451979
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14170,7 +14170,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69448
+  m_Name: pb_Mesh40122
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -15101,7 +15101,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69606
+  m_Name: pb_Mesh40300
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -15628,7 +15628,7 @@ GameObject:
   - component: {fileID: 876826872}
   - component: {fileID: 876826871}
   - component: {fileID: 876826870}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 1st floor back wall 1
   m_TagString: CollisionWall
   m_Icon: {fileID: 0}
@@ -15953,7 +15953,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69202
+  m_Name: pb_Mesh39874
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -16177,7 +16177,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Back
+  m_Text: Reload
 --- !u!222 &919980052
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17305,7 +17305,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-165504
+  m_Name: pb_Mesh40508
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -18022,7 +18022,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69688
+  m_Name: pb_Mesh40410
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -18251,7 +18251,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69548
+  m_Name: pb_Mesh40230
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -18596,6 +18596,37 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1125329630}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1127929264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1370384709}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1127929265}
+  m_Layer: 0
+  m_Name: Wolf (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1127929265
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1370384709}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127929264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1246218573}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1134205669
 GameObject:
   m_ObjectHideFlags: 0
@@ -20158,8 +20189,9 @@ GameObject:
   - component: {fileID: 1240174481}
   - component: {fileID: 1240174480}
   - component: {fileID: 1240174479}
+  - component: {fileID: 1240174482}
   m_Layer: 5
-  m_Name: back
+  m_Name: Reload
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20225,20 +20257,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1431569580}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 112819788}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1240174482}
+        m_MethodName: Reload
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -20286,12 +20307,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1240174477}
   m_CullTransparentMesh: 0
---- !u!1 &1246218572 stripped
+--- !u!114 &1240174482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240174477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb4f38e7fd88c1f4e92e45b86b2c6c44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1246218572
 GameObject:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 100086, guid: 0ae47b693aac4f5419352f4f5332896c,
     type: 3}
   m_PrefabInstance: {fileID: 1370384709}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1246218573}
+  - component: {fileID: 1246218574}
+  - component: {fileID: 1246218577}
+  - component: {fileID: 1246218578}
+  - component: {fileID: 1246218576}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1246218573
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1370384709}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246218572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1127929265}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &1246218574
 CharacterController:
   m_ObjectHideFlags: 0
@@ -20446,7 +20508,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69586
+  m_Name: pb_Mesh40278
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -20784,7 +20846,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69988
+  m_Name: pb_Mesh40740
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -21005,7 +21067,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1329196112
 GameObject:
@@ -21874,7 +21936,7 @@ GameObject:
   - component: {fileID: 1361315643}
   - component: {fileID: 1361315642}
   - component: {fileID: 1361315641}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: '2nd floor left wall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22307,7 +22369,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69262
+  m_Name: pb_Mesh39936
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -22637,7 +22699,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69902
+  m_Name: pb_Mesh40644
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -23084,7 +23146,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69150
+  m_Name: pb_Mesh39810
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -25414,7 +25476,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh70058
+  m_Name: pb_Mesh40796
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -25574,7 +25636,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh70166
+  m_Name: pb_Mesh40916
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -25741,7 +25803,7 @@ GameObject:
   - component: {fileID: 1558224657}
   - component: {fileID: 1558224656}
   - component: {fileID: 1558224655}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 1st floor right wall
   m_TagString: CollisionWall
   m_Icon: {fileID: 0}
@@ -26066,7 +26128,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh70142
+  m_Name: pb_Mesh40888
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -26232,6 +26294,7 @@ GameObject:
   - component: {fileID: 1582371691}
   - component: {fileID: 1582371690}
   - component: {fileID: 1582371693}
+  - component: {fileID: 1582371694}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -26321,6 +26384,27 @@ MonoBehaviour:
   height: 8
   heightDamping: 2
   rotationDamping: 3
+--- !u!114 &1582371694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582371689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa8d79955e805143af02133e644dbc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minDistance: 10
+  maxDistance: 12
+  DistanceUp: -2
+  smooth: 4
+  rotateAround: 70
+  target: {fileID: 671867648}
+  CamOcclusion:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1001 &1593307977
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26839,7 +26923,7 @@ GameObject:
   - component: {fileID: 1651668461}
   - component: {fileID: 1651668460}
   - component: {fileID: 1651668459}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 1st floor back wall 2
   m_TagString: CollisionWall
   m_Icon: {fileID: 0}
@@ -31323,7 +31407,7 @@ GameObject:
   - component: {fileID: 1935770681}
   - component: {fileID: 1935770680}
   - component: {fileID: 1935770679}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 2nd floor back wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31904,7 +31988,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh68920
+  m_Name: pb_Mesh39586
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -32816,7 +32900,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69970
+  m_Name: pb_Mesh40720
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -32976,7 +33060,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh70010
+  m_Name: pb_Mesh40768
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -33288,7 +33372,7 @@ GameObject:
   - component: {fileID: 2065350512}
   - component: {fileID: 2065350511}
   - component: {fileID: 2065350510}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 1st floor ramp wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33701,7 +33785,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69174
+  m_Name: pb_Mesh39836
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -33867,7 +33951,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69288
+  m_Name: pb_Mesh39962
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -34027,7 +34111,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69062
+  m_Name: pb_Mesh39738
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -34187,7 +34271,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh69526
+  m_Name: pb_Mesh40204
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -34355,7 +34439,7 @@ GameObject:
   - component: {fileID: 2101296948}
   - component: {fileID: 2101296947}
   - component: {fileID: 2101296946}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: '1st floor front wall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
