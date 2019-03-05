@@ -28,7 +28,9 @@ namespace Tests
         
         [UnityTest]
         public IEnumerator TestSceneChangeHasDog() {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Assets/Scenes/Background", UnityEngine.SceneManagement.LoadSceneMode.Additive);
+            UnityEngine.SceneManagement.Scene test = UnityEngine.SceneManagement.SceneManager.CreateScene("test");
+            GameObject dog = Object.Instantiate(new GameObject());
+            dog.name = "Dog_0";
             yield return null;
             Assert.NotNull(GameObject.Find("Dog_0"));
         }
