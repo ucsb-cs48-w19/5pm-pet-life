@@ -1,0 +1,1 @@
+﻿using System.Collections; using System.Collections.Generic; using UnityEngine;  public class health : MonoBehaviour {     public healthB healthbar;      public void Happier(int amount)     {         healthbar.MakeHappier(amount);     } }

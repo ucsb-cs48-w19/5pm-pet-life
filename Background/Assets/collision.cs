@@ -1,0 +1,1 @@
+﻿using System.Collections; using System.Collections.Generic; using UnityEngine; public class collision : MonoBehaviour {     public void OnCollisionEnter(Collision collision)     {         GameObject hit = collision.gameObject;         health health123 = hit.GetComponent<health>();         if (health123 != null)         {             health123.Happier(3);         }      } } 
