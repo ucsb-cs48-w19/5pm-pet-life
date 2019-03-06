@@ -55,10 +55,7 @@ public class RealCamera : MonoBehaviour{
         //the camMask is for forcing the camera to push away from walls.
         camPosition = targetOffset + Vector3.up * DistanceUp - rotateVector * DistanceAway;
         camMask = targetOffset + Vector3.up * DistanceUp - rotateVector * DistanceAway;
-
-
         
-        //turnoff(targetOffset);
         occludeRay(ref targetOffset);
         smoothCamMethod();
  
@@ -102,10 +99,6 @@ public class RealCamera : MonoBehaviour{
             //wallHit.collider.GetComponent<MeshRenderer>().enabled=false;
         }
 
-        else
-        {
-
-        }
         #endregion
     }
 
