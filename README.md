@@ -10,7 +10,7 @@ It’s a game that will let the users keep a digital pet for fun.
 
 
 ### Additional information about the project
-Users will have their own accounts, choose for their ideal pets, feed and play with it.
+Play with your virtual pet. Explore the house, play with a ball, and pet your pet.
 
 
 ## Installation
@@ -23,32 +23,28 @@ Users will have their own accounts, choose for their ideal pets, feed and play w
 * GPU: Graphics card with DX9 (shader model 2.0) capabilities. Anything made since 2004 should work.
 
 
-### Libraries
-
-
 ### Installation Steps
 
 * Install Unity version 2018.3.2.f1 from here: https://unity3d.com/get-unity/download
-* Clone our repo with HTTPS or SSH
-
+* Click green button on upper right corner to clone our repo with HTTPS. 
+* open terminal and cd to directory of choice 
+* copy this into your terminal "git clone https://github.com/ucsb-cs48-w19/5pm-pet-life.git " 
+* After cloning you will see a see a new folder called 5pm-pet-life in your location of choice
+* Open Unity. In the unity welcome screen click the "open" button on the upper right corner. It should launch your file explorer. Search for the pet life repo and double click on it
+* Find the folder labeled "background". Single click/highlight it and then click "select folder"
+* Note: you may need to wait up to 10 minutes upon first opening
+* After opening the project for the first time, you need to open the Projects tab. Under the Assets folder, find the "Scenes" folder. Choose either the background/main menu scene to open and view scene. Background is where most of the functionality is. You can also make another scene/add it
 
 ## Functionality
 
-First, the game will prompt you to make an account. Afterwards, you can choose a pet to take care of. When taking care of your pet, you have to feed it, play with it, keep it clean, and other various activities. You monitor a "happiness" bar to keep track of how well you're doing in game.
+Relaxing game to interact with a dog and play with. You can pet the dog or play with a ball. You monitor a "happiness" bar to keep track of how well you're doing in game.
 
 
 ## Known Problems
 
-Provide steps to reproduce the problem and/or name a file or a function where the problem lives.
-TO BE UPDATED AS PROGRESS CONTINUES
- 
-We are aware that after a collision the dog sometimes falls over and cannot get up and sort of uselessly spins around. This is a result of using 3d physics on 2d assets in a 3d environment and we are looking into how to better integrate 2d into 3d (maybe with a constantly updating script) or finding a 3d model.
+There may be some issues with 3d models not appearing without blender 3d.
+There is no right click button on Mac, so the input for right click/petting may not be recognized.
 
-Animations plays on a slight delay. 
-
-All physics goes out the window once the dog leaves the house. Take the stairs at your own risk.
-
-Camera is not very smooth, sometimes gets blocked by walls of the house. Maybe update SmoothFollow.cs so that it turns whenever it hits a wall.
 
 ## Contributing
 
