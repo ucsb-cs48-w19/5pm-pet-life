@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class DogOnClick: MonoBehaviour
 {
-    //most basic user interactions
-    //animaitor component
     public Animator anim;
     Vector3 newPosition;
     Vector3 flatraypos;
@@ -26,7 +24,6 @@ public class DogOnClick: MonoBehaviour
         RaycastHit hit;
         Ray ray;
 
-        //on leftclick walking animation triggers, moves toward mouseclick
         if (Input.GetMouseButton(0))
         {
             //raycast to move
@@ -40,29 +37,17 @@ public class DogOnClick: MonoBehaviour
                     Vector3 rayPosition = hit.point;
                     float xupdate = rayPosition.x;
                     float zupdate = rayPosition.z;
-                    //hopefully new vector with the ray's x and y coord while keeping the y
                     flatraypos = new Vector3(xupdate, newPosition.y, zupdate);
-                    //also get rid of dragging and just make ti move
                     transform.position = Vector3.MoveTowards(transform.position, flatraypos, 12 * Time.deltaTime);
                 }
 
             }
-
-            //play animation
-            //maybe loop to play while object is in motion
-            /*if (Mathf.Abs(dog.transform.GetComponent<Rigidbody>().velocity.x)>0 || Mathf.Abs(dog.transform.GetComponent<Rigidbody>().velocity.z) > 0)
-            {
-                 anim.SetTrigger("Active");
-            }*/
             anim.SetTrigger("Active");
-
         }
         else
         {
             anim.SetTrigger("Not Active");
         }
-
-
         //raycasting tut
         //myray gives info about the line from where you start and which direction
         //Physics.Raycast(myRay,Raycasthit hitinfo, float distance, int layermask)

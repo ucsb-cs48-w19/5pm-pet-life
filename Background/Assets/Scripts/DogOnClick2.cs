@@ -45,11 +45,7 @@ public class DogOnClick2: MonoBehaviour
                 flatraypos = new Vector3(xupdate, transform.position.y, zupdate);
                 endPosition=flatraypos;
                 }
-                //also get rid of dragging and just make ti move
-                //transform.position = Vector3.MoveTowards(transform.position, flatraypos, 12 * Time.deltaTime);
             }
-            //play animation
-            //anim.SetTrigger("Active");
         }
 
             
