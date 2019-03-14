@@ -8,12 +8,6 @@ namespace Tests
 {
     public class Tests
     {
-        // A Test behaves as an ordinary method
-        [Test]
-        public void TestsSimplePasses()
-        {
-            // Use the Assert class to test conditions
-        }
         [Test]
         public void GetDog() {
             GameObject dog = Object.Instantiate(new GameObject());
@@ -25,7 +19,6 @@ namespace Tests
             GameObject dog = Object.Instantiate(new GameObject());
             Assert.AreEqual(dog.scene, UnityEngine.SceneManagement.SceneManager.GetActiveScene());
         }
-        
         [UnityTest]
         public IEnumerator TestSceneChangeHasDog() {
             UnityEngine.SceneManagement.Scene test = UnityEngine.SceneManagement.SceneManager.CreateScene("test");
@@ -33,16 +26,6 @@ namespace Tests
             dog.name = "Dog_0";
             yield return null;
             Assert.NotNull(GameObject.Find("Dog_0"));
-        }
-
-        // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
-        // `yield return null;` to skip a frame.
-        [UnityTest]
-        public IEnumerator TestsWithEnumeratorPasses()
-        {
-            // Use the Assert class to test conditions.
-            // Use yield to skip a frame.
-            yield return null;
         }
     }
 }
